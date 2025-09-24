@@ -26,3 +26,8 @@ fi
 
 echo "🔁 Rebooting to apply changes..."
 sudo reboot
+
+
+# Run once rebooted
+##  chmod +x setup-lcd.sh
+##  ./setup-lcd.sh
