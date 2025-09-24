@@ -31,3 +31,11 @@ sudo reboot
 # Run once rebooted
 ##  chmod +x setup-lcd.sh
 ##  ./setup-lcd.sh
+
+
+
+# 🧪 Optional: Test Framebuffer Directly
+sudo dd if=/dev/fb0 of=/dev/fb1 bs=1M
+
+sudo apt-get install fbi
+sudo fbi -T 1 -d /dev/fb1 --noverbose -a /usr/share/plymouth/themes/pix/splash.png
