@@ -1,5 +1,6 @@
 # pi4-ScreensMirrorSetup
 working with 3.5 screen and HMI monitor
+Also you can try GoodTFT.
 
 🧙‍♂️ WizardCloud 3.5" LCD Setup Script
 bash
