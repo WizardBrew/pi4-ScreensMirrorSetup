@@ -1,4 +1,4 @@
-#🧙‍♂️ WizardCloud 3.5" LCD Setup Script
+# 🧙‍♂️ WizardCloud 3.5" LCD Setup Script
 
 #!/bin/bash
 
